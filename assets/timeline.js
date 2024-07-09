@@ -4,8 +4,8 @@ var data = [
     name:'Jensen'
   },
   {
-    date: new Date(2024, 9, 18), 
-    name:'Second post',
+    date: new Date(2024, 7, 9), 
+    name:'Decision vs Outcome',
   },
   {
     date: new Date(2025, 12, 18), 
