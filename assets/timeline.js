@@ -35,9 +35,10 @@ function labelText(d){
     "January", "February", "March", "April", "May", "June", 
     "July", "August", "September", "October", "November", "December"
   ];
+    const day = d.date.getDate();
     const year = d.date.getFullYear()
     const month = monthNames[d.date.getMonth()];
-    return `${month} ${year}` + ' - ' + d.name;
+    return `${day} ${month} ${year}` + ' - ' + d.name;
 }
 
 
