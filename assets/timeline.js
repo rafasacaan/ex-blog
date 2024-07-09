@@ -1,18 +1,15 @@
 var data = [
   {
     date: new Date(2024, 7, 8), 
-    name:'Blog manifesto.',
-    link: 'post-1.html',
+    name:'Jensen'
   },
   {
     date: new Date(2024, 9, 18), 
     name:'Second post',
-    link: './posts/post-1.html',
   },
   {
     date: new Date(2025, 12, 18), 
     name:'The future is today',
-    link: './posts/post-1.html',
   },
 ];
 
@@ -113,7 +110,7 @@ function draw(nodes){
     .append('a')
     .attr('xlink:href', function(d) {
       
-      const fileName = d.data.name.replace(/\s+/g, '_').toLowerCase() + 'html';
+      const fileName = d.data.name.replace(/\s+/g, '_').toLowerCase() + '.html';
       return 'posts/' + encodeURIComponent(fileName);
       // return d.link + encodeURIComponent(d.data.name); // Customize this as needed
     })
