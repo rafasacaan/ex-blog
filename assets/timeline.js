@@ -5,7 +5,7 @@ var data = [
   },
   {
     date: new Date(2024, 7, 9), 
-    name:'Decision vs Outcome',
+    name:'Decision vs outcome',
   },
   {
     date: new Date(2024, 7, 11), 
