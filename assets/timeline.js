@@ -8,6 +8,10 @@ var data = [
     name:'Decision vs Outcome',
   },
   {
+    date: new Date(2024, 7, 11), 
+    name:'Sun Kil Moon',
+  },
+  {
     date: new Date(2025, 12, 18), 
     name:'The future is today',
   },
