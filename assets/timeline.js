@@ -1,14 +1,14 @@
 var data = [
   {
-    date: new Date(2024, 7, 8), 
+    date: new Date(2024, 7-1, 8), 
     name:'Jensen'
   },
   {
-    date: new Date(2024, 7, 9), 
+    date: new Date(2024, 7-1, 9), 
     name:'Decision vs outcome',
   },
   {
-    date: new Date(2024, 7, 11), 
+    date: new Date(2024, 7-1, 11), 
     name:'Sun Kil Moon',
   },
   {
