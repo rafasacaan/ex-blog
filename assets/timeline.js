@@ -12,6 +12,10 @@ var data = [
     name:'Sun Kil Moon',
   },
   {
+    date: new Date(2024, 7-1, 15), 
+    name:'Tu próximo proyecto',
+  },
+  {
     date: new Date(2025, 12, 18), 
     name:'The future is today',
   },
